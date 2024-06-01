@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>DoctorsDataLab</title>
+</head>
+
+<body>
+    <div>
+        <img src="doctorsdatalab.gif" width="370px">
+    </div>
+
+    <div class="loading">
+        <svg width="64px" height="48px">
+          <polyline
+            style="stroke: rgb(21, 255, 0); fill: none;"
+            points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"
+            id="back"
+          ></polyline>
+          <polyline
+            style="stroke: rgb(14, 224, 214); fill: none;"
+            points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"
+            id="front"
+          ></polyline>
+          <polyline
+            style="stroke: rgb(255, 255, 255); fill: none;"
+            points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"
+            id="front2"
+          ></polyline>
+        </svg>
+      </div>
+
+    <form action="index2.html" method="post">
+
+        <div>
+
+            <label for="confirmacaoSenha">Adicione a senha que recebeu em seu email:</label>
+            <input type="password" id="confirmacaoSenha" name="confirmacaoSenha" required>
+
+            <div id="mensagemSenha"></div>
+
+            <button class="button" type="submit">
+                <span>Submit</span>
+            </button>
+
+        </div>
+
+</body>
+
+</html>
