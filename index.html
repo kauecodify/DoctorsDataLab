@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>DoctorsDataLab</title>
+</head>
+
+<body>
+    <div>
+        <img src="doctorsdatalab.gif" width="370px">
+    </div>
+
+    <select id="tipo" name="tipo">
+        <optgroup label="Médicos">
+            <option value="Cadastre-se">...</option>
+            <option value="Médico terceirizado">Médico terceirizado - GERAL/PJ </option>
+            <option value="Médico Geral">Médico Geral</option>
+            <option value="Anestesiologista">Anestesiologista</option>
+            <option value="Cirurgião">Cirurgião</option>
+            <option value="Cirurgião Assistente">Cirurgião Assistente</option>
+            <option value="Cardiologista">Cardiologista</option>
+            <option value="Dermatologista">Dermatologista</option>
+            <option value="Endocrinologista">Endocrinologista</option>
+            <option value="Gastroenterologista">Gastroenterologista</option>
+            <option value="Ginecologista">Ginecologista</option>
+            <option value="Neurologista">Neurologista</option>
+
+        </optgroup>
+
+        <optgroup label="Enfermagem">
+            <option value="Auxiliar de enfermagem">Auxiliar de enfermagem</option>
+            <option value="Enfermeira(o)">Enfermeira(o)</option>
+            <option value="Enfermeira Obstetra">Enfermeira Obstetra</option>
+            <option value="Enfermeira de Terapia Intensiva">Enfermeira de Terapia Intensiva</option>
+            <option value="Enfermeira Oncológica">Enfermeira Oncológica</option>
+
+        <optgroup label="Suporte">
+            <option value="Técnico de Anestesia">Técnico de Anestesia</option>
+            <option value="Instrumentador cirurgico">Instrumentador cirúrgico</option>
+            <option value="Técnico de Enfermagem do Trabalho">Técnico de Enfermagem do Trabalho</option>
+        </optgroup>
+<!--
+        <optgroup label="Engenharia">
+            <option value="Engenheiro clínico">Engenheiro clínico</option>
+            <option value="Engenheiro de equipamentos biomédicos">Engenheiro de equipamentos biomédicos</option>
+            <option value="Engenheiro eletrônico">Engenheiro eletrônico</option>
+            <option value="Engenheiro clínico">Engenheiro clínico</option>
+            <option value="Engenheiro de Segurança Hospitalar">Engenheiro de Segurança Hospitalar</option>
+            <option value="Engenheiro de Telecomunicações">Engenheiro de Telecomunicações</option>
+            <option value="Engenheiro de Sistemas">Engenheiro de Sistemas</option>
+
+            <optgroup label="Analistas"></optgroup>
+            <option value="Analistas de Sistemas de Informação em Saúde (ASIS)">Analista de Sistemas de Informação em Saúde (ASIS)</option>
+            <option value="Analistas de Dados">Analista de Dados</option>
+            <option value="Analistas de Qualidade">Analista de Qualidade</option>
+            <option value="Analistas de Suporte">Analista de Suporte</option>
+-->
+        </select>
+
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <label for="confirmacaoSenha">Confirmação da senha:</label>
+        <input type="password" id="confirmacaoSenha" name="confirmacaoSenha" required>
+
+        <div id="mensagemSenha"></div>
+
+        <button class="button" type="submit">
+
+    </div>
+
+</body>
+
+</html>
