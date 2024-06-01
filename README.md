@@ -5,4 +5,4 @@ Repositório destinado ao cadastro de profissionais de saúde de um hospital
 HTML, CSS E JAVASCRIPT
 
 **BACK-END**
-JSON, AJAX E PHP
+JSON, AJAX, PHP e JAVA SPRINGBOOT
